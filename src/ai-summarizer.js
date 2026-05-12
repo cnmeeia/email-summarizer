@@ -3,7 +3,7 @@
  */
 export async function summarizeEmail(email, env) {
   const language = env.LANGUAGE || 'zh';
-  const model = env.AI_MODEL || '@cf/meta/llama-3.1-8b-instruct';
+  const model = env.AI_MODEL || '@cf/zai-org/glm-4.7-flash';
 
   // 截断过长的邮件内容（避免超出 token 限制）
   const maxChars = 8000;

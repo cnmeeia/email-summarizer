@@ -89,7 +89,7 @@ npx wrangler tail
 | `TELEGRAM_BOT_TOKEN` | Telegram Bot Token | 是（TG） |
 | `TELEGRAM_CHAT_ID` | Telegram 目标 Chat ID | 是（TG） |
 | `DISCORD_WEBHOOK_URL` | Discord Webhook URL | 否 |
-| `AI_MODEL` | AI 模型，默认 `@cf/meta/llama-3.1-8b-instruct` | 否 |
+| `AI_MODEL` | AI 模型，默认 `@cf/zai-org/glm-4.7-flash` | 否 |
 | `LANGUAGE` | 输出语言，`zh` 或 `en`，默认 `zh` | 否 |
 
 敏感变量通过 `wrangler secret` 设置，非敏感变量可在 `wrangler.toml` 的 `[vars]` 中配置。
